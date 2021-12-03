@@ -1,6 +1,6 @@
 from flask import Blueprint
-from api.utils import jsonify_data
-from api.ipwhois import get_ip_geo
+from code.api.utils import jsonify_data
+from code.api.ipwhois import get_ip_geo
 health_api = Blueprint('health', __name__)
 
 

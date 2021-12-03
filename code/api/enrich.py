@@ -1,9 +1,9 @@
 from functools import partial
-from api.schemas import ObservableSchema
-from api.utils import get_json, jsonify_data
+from code.api import ObservableSchema
+from code.api.utils import get_json, jsonify_data
 from flask import Blueprint, current_app
 
-from api.ipwhois import get_ip_geo
+from code.api.ipwhois import get_ip_geo
 
 def group_observables(relay_input):
     result = []
