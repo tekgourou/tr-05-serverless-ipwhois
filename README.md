@@ -146,7 +146,7 @@ Now after a page refresh in your Cisco SecureX `Available Integration Modules` y
 
 ![image](img/securex_module.png)
 
-Add your SANS Internet Storm Center SecureX Relay module URL from Step 2 and click `Save`.
+Add your IP Whois SecureX Relay module URL from Step 2 and click `Save`.
 
 ![image](img/securex_module_config.png)
 
