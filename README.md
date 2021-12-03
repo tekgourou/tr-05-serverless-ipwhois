@@ -1,4 +1,4 @@
-# SecureX Cisco IPWhois module
+# Cisco SecureX IPWhois module
 
 Create IP Whois module in Cisco SecureX.
 
