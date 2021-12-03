@@ -124,5 +124,32 @@ zappa undeploy dev
 command does not change the current `URL`. The `undeploy` command destroys the
 old `URL` forever.
 
+## Step 4: Installing the relay module in SecureX
+
+Browser to [The SecureX module maker](https://ciscosecurity.github.io/tr-05-module-maker/) and open the JSON [IP_Whois_module_type.json](code/IP_Whois_module_type.json) from this githubby clicking on `Open JSON from File`.
+
+![image](img/upload_json.png)
+
+Feel free to change the module title or the description if you want and then click on `Push JSON to TR`.
+
+![image](img/module_maker.png)
+
+Enter your [Cisco SecureX API credential](https://securex.us.security.cisco.com/help/securex/topic/integration) and Region and click on `Push`
+
+![image](img/module_push.png)
+
+Make sure the module was deployed successfully. If not double check your API credential.
+
+![image](img/upload_module_success.png)
+
+Now after a page refresh in your Cisco SecureX `Available Integration Modules` you should see the new module `Sans Internet Storm Center` available. Click on `+ New Module`
+
+![image](img/securex_module.png)
+
+Add your SANS Internet Storm Center SecureX Relay module URL from Step 2 and click `Save`.
+
+![image](img/securex_module_config.png)
+
+
 
 For any questions or comments/bugs please reach out to me at aargeris@cisco.com
