@@ -2,7 +2,7 @@
 
 Create IP Whois module in Cisco SecureX.
 
-![image](img/casebook.png)
+![image](img/module.png)
 
 Lookup IP WHOIS information using the ipwhois.io api for any allocated public IP address.
 
