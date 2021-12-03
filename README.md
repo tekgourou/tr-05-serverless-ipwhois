@@ -142,7 +142,7 @@ Make sure the module was deployed successfully. If not double check your API cre
 
 ![image](img/upload_module_success.png)
 
-Now after a page refresh in your Cisco SecureX `Available Integration Modules` you should see the new module `Sans Internet Storm Center` available. Click on `+ New Module`
+Now after a page refresh in your Cisco SecureX `Available Integration Modules` you should see the new module `IP Whois` available. Click on `+ Add`
 
 ![image](img/securex_module.png)
 
