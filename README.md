@@ -124,7 +124,7 @@ zappa undeploy dev
 command does not change the current `URL`. The `undeploy` command destroys the
 old `URL` forever.
 
-## Step 4: Installing the relay module in SecureX
+## Step 3: Installing the relay module in SecureX
 
 Browser to [The SecureX module maker](https://ciscosecurity.github.io/tr-05-module-maker/) and open the JSON [IP_Whois_module_type.json](code/IP_Whois_module_type.json) from this githubby clicking on `Open JSON from File`.
 
